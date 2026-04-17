@@ -3,4 +3,4 @@ def addition(a, b):
 
 import subprocess
 subprocess.run(["ls"])
-API_KEY = "ghp_1234567890abcdefghijklmnopqrstuvwxyz"
+echo 'API_KEY = os.getenv("API_KEY")' >> src/main.py
